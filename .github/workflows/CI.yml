@@ -1,11 +1,9 @@
+#  https://stackoverflow.com/questions/58475748/github-actions-how-to-check-if-current-push-has-new-tag-is-new-release
 name: CI
 
 on:
-  push:
-    branches:
-      - main
-      - master
-  pull_request:
+  release:
+    types: [ published ]
 
 jobs:
   linux:
