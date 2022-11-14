@@ -14,7 +14,9 @@ pip install maturin
 ```shell
 maturin develop
 ```
+
 test:
+
 ```shell
 python
 
@@ -26,11 +28,13 @@ python
 ```
 
 ## build and publish
+
 ```shell
 #maturin build
 maturin build -f -r
 
 ```
+
 ```shell
 maturin publish
 ```
@@ -38,3 +42,5 @@ maturin publish
 - https://stackoverflow.com/questions/69585768/pyo3-maturin-publish-command-doesnt-upload-readme-and-license-to-pypi
 
 - https://blog.csdn.net/KINGEH/article/details/127164521
+- https://github.com/LiberTEM/LiberTEM-dectris-rs/blob/main/.github/workflows/CI.yml
+    
