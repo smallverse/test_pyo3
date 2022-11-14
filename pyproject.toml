@@ -11,6 +11,9 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
 
+[project.urls]
+repository = "https://github.com/smallverse/test_pyo3"
+
 # add readme.md
 [tool.maturin]
 sdist-include = ["LICENSE", "readme.md"]
