@@ -42,5 +42,5 @@ maturin publish
 - https://stackoverflow.com/questions/69585768/pyo3-maturin-publish-command-doesnt-upload-readme-and-license-to-pypi
 
 - https://blog.csdn.net/KINGEH/article/details/127164521
-- https://github.com/LiberTEM/LiberTEM-dectris-rs/blob/main/.github/workflows/CI.yml
+- [Attempting to include the sdist output tarball [...] into itself](https://github.com/PyO3/maturin-action/issues/99) : [CI.yml is Ture](https://github.com/LiberTEM/LiberTEM-dectris-rs/blob/main/.github/workflows/CI.yml)
     
